@@ -1,0 +1,80 @@
+body {
+before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); /* Adjust transparency as needed */
+        z-index: -1;
+      }
+      
+    font-family: Arial, sans-serif;
+    background-image: url('web2.jpg'); /* Replace with the actual path to your image */
+    background-size: cover; /* Ensure the image covers the entire viewport */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Keep the image fixed during scrolling */
+    background-position: center; /* Center the image */
+    margin: 0;
+    padding: 0;
+  }
+  body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust transparency as needed */
+  z-index: -1;
+}
+
+  .form-container {
+    width: 50%;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white for readability */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #successMessage {
+    margin-top: 20px;
+    color: green;
+    text-align: center;
+  }
+  
